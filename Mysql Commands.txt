@@ -1,0 +1,16 @@
+
+Made by: Manisha manisha
+
+
+MYSQL Commands used to create customer and booking table:
+
+1) To select the s4956958_db database:
+       USE s4956958_db;
+
+2) To create customer table:
+
+CREATE TABLE customer (Name VARCHAR (20), Email VARCHAR (50) AUTO_INCREMENT PRIMARY KEY, Password VARCHAR (15), Phone INT);
+
+3) To create booking table:
+
+CREATE TABLE booking (booking_no INT AUTO_INCREMENT PRIMARY KRY NOT NULL, customer_name VARCHAR(20), passenger_name VARCHAR(20), phone INT, unit_no VARCHAR(5), street_no INT, street_name VARCHAR(20), suburb VARCHAR(20), destination_suburb VARCHAR(20), pickup_date DATE, pickup_time TIME, status VARCHAR(12));
